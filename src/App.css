@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#pic{
+  max-width: 100%;
+  height: auto;
+}
+.flex-parent-element {
+  display: flex;
+  width: 100%;
+  background-color: antiquewhite;
+  flex-direction: row;
+}
+.flex-child-element {
+  flex: 1;
+  margin-left: 150px;
+  background-color: antiquewhite;
+  max-width: fit-content;
+  
+}
+.flex-3{
+  margin-left:200px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  background-color: aqua;
+  height: 10%;
+}
+
+.flex-child-element:first-child {
+  margin: 50px;
+}
+@media (max-width: 600px){
+  .flex-parent-element{
+    flex-direction: column;
+  }
+  .flex-child-element{
+    margin-left: 0px;
+    width: 100%;
+    max-width: fit-content;
+    
+    
+  }
+  .flex-3{
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  
+}
+
+
+.footerhead {
+  color: black;
+}
+.footerhead1 {
+  color: black;
+}
+@media (max-width: 600px){
+  .footerhead1 {
+      margin-left: -25px;
+  }
+}
+.acc {
+  color: rgb(2, 7, 7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.accbtn1 {
+  background-color: antiquewhite;
+  width: 100%;
+  border: none;
+}
+.accbtn2 {
+  background-color: cornsilk;
+  width: 100%;
+  border: none;
+}
+
+
+
+
+
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+.container {
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.quote-box {
+  border: 2px solid #ddd;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  background-color: rgb(209, 170, 119);
+}
+#quote {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+#author {
+  float: right;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.btn {
+  width:30%;
+  align-self: center;
+  background-color: ivory;
+}
+
+
+@media (max-width: 600px){
+  .btn {
+    width: auto;
+    font-size: small;
+  }
+  .flex-child-element{
+    width: 600px;
+    
+  }
+  
+}
+label{
+  
+}
+.button{
+  max-width: 100%;
+  height: auto;
+  background-color: aqua;
+  width: 40%;
+  margin-left: 250px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+@media (max-width: 600px){
+  .button{
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
